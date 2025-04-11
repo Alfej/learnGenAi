@@ -1,0 +1,42 @@
+Langchain is a open source framework to create application using LLm
+
+Components of Langchain
+-> Models
+-> Prompts
+-> Chains
+-> Memory
+-> Indexes
+-> Agents
+
+Models:
+-> In Langchain Models are the core interfaces through which we interact with AI models 
+
+-> 2 types of models
+    -> language models
+    -> embedding models 
+
+Prompts:
+-> Instructions sent to the language models
+
+chains:
+-> We can build pipelines using this 
+
+Indexes:
+-> Indexes connects application to external knowledge source
+-> types of Indexes:
+    -> doc loader
+    -> text splitter
+    -> vector store
+    -> retrivers
+
+Memory:
+-> LLM api calls are stateless
+Types of Memories: 
+    -> Conversation Buffer Memory : stores transcripts of recent messages
+    -> Conversation Buffer Window Memory: Only keeps last N interactions to avoid excessive token usage
+    -> Summarizer based Memory: Periodically Summarizes older chats
+    -> Custom Memory: User preferred Memory storage
+
+
+Agents:
+-> Use language models to solve real life problems 

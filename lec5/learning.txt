@@ -1,0 +1,11 @@
+-> model mainly has 2 types:
+    -> language models
+        -> llms 
+        -> chat models
+
+    -> embedding models 
+
+-> language models:
+    language models are AI systems designed to process, genrate and understand natural language
+    
+     
