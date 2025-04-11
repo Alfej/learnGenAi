@@ -1,0 +1,27 @@
+Structured output -> model response in structured format 
+Used in-> Data extraction, API bulding, Agents
+
+2 ways to get the structured output:
+    -> LLm can generate structured output -> with_structured_output()
+    -> LLm can't generate structured output -> output parser classes 
+
+1. with_structured_output():
+-> have to call before invoking model 
+-> have to define the structure output
+    -> provide the structure in 3 ways 
+        -> typedict
+        -> pydantic
+        -> json
+
+typedict = define the dictionary with specified keys should exist
+pydentic = it is data parsing and validation library in python, it ensures the data we are working with is structures and correct
+ -> pydentic is strart enough to perform coercing if its getting a value in a different format
+ -> have builtin validations for thr define types
+ -> have a field function that can be used to apply a constrains 
+
+ 2. output parser:
+ helps raw output to be converted in the structured output like json, csv, pydentic and any more
+ -> string output parser
+ -> json output parser
+ -> structured output parser
+ -> pydentic output parser
