@@ -1,0 +1,3 @@
+What? and why?
+-> Pipeline kind of model where it internally handles the data passing in the various steps 
+-> 
