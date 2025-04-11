@@ -22,6 +22,7 @@ pydentic = it is data parsing and validation library in python, it ensures the d
  2. output parser:
  helps raw output to be converted in the structured output like json, csv, pydentic and any more
  -> string output parser
- -> json output parser
- -> structured output parser
- -> pydentic output parser
+ -> json output parser -> can just force LLm to return json object but can't enforce schema
+ -> structured output parser -> can enfprce the schema but data validation is not possible 
+ -> pydentic output parser 
+
