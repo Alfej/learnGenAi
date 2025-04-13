@@ -1,0 +1,11 @@
+doc loaders : -> this are the components in langchain used to load data from a various sources into standardize format which can be used for chunking, embedding, Retrieval and generation
+
+Text loader: simple doc loader 
+-> converts simple .txt files to document object
+Usecases: chat logs, Scrapped text, transcript, code snippet
+
+limitations: works only with .txt file
+
+pypdfLoader: doc loader to load PDf gives the each page content 
+
+directory loader: Help to load all files present in the folder

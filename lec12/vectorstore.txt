@@ -1,0 +1,26 @@
+Challenges faced with the recomander system 
+-> Embedding Generation
+-> storage of generated vectors
+-> Inteliggent sementic search within this vectors
+
+-> Vector store solves this problems 
+
+
+-> Vector store is the system designed to store and retrive data presented in vector forms
+
+->Key features:
+    -> Storage -> in memory or On disk -> store vector with metadata information
+    -> similarity search -> HELPS to retrive most similar vector
+    -> indexing -> Provide data structure to enable faster similarity search 
+    -> CRUD operation
+
+
+Vector store vs Vector Database:
+-> Store -> system where you store and retrive the records we can say is store 
+-> Store feature + database like features 
+
+-> Example of store -> FAISS
+
+Vector database Examples: Milvus, Qdrant, weaviate, pinecone
+
+

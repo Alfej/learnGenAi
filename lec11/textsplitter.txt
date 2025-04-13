@@ -1,0 +1,10 @@
+Text splitting: Breaking down large chunk of the data into smaller pieces 
+
+-> overcome Maximum input size constrains
+-> Optimize the computational resources
+
+-> Types
+-> length based text splitting -> based on the provided length we can split the text  
+-> Text Structured based text splitting -> Recusrsive charechter text splitter
+-> Document Structured based text splitting -> 
+-> Sementic Meaning based text splitting

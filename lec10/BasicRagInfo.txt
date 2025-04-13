@@ -1,0 +1,20 @@
+RAG :-> Retrieval-Augmented Generation
+    Its technique that combines infrmation Retrievalwith language generation, Where model retrives relevant doc from the knowledgebase and then uses them as context to generate the accurate and grounded result
+
+    benefits:
+    -> Uses Up to date information
+    -> Better privacy
+    -> No limit to doc size
+
+RAG components:
+-> Document loader
+-> Text splitter
+-> Vector dataset
+-> retriver
+
+Famous doc loader:
+-> Text loader
+-> pyPDF loader
+-> WebBased loader
+-> csv loader
+
