@@ -1,0 +1,11 @@
+retrivers is a component in langchain that fetches relevant document from a data store in response to user story.
+
+Types of retrivers:
+-> Data source based -> wekipedia based 
+                     -> Vector store based
+                     -> Archive based 
+
+-> search stratagy based -> MMR (Maximum marginal retrivers) -> How to pick a result that are not only similar but also different to each other 
+                         -> Multi query -> Sometime single query not captures all the ways information is phrased in document -> generate further question to remove embiguity 
+                         -> Cntextual compression -> Improves retrivel quality by compressing documents after retrivel
+
