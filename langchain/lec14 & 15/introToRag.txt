@@ -1,0 +1,27 @@
+Why we require RAG?
+
+-> To solve the problem like 
+    get the answers from my personal data, Newly available data on internet existing models are not useful as they are pretrained on the older and more generic data.
+
+-> To solve this issues there was a techniques known as Fine tuning of model:
+    -> Type of fine tuning 
+        -> Supervised fine tuning (create a custom labled dataset for qestion and answers)
+        -> Continued Pretraining (Unsupervised)
+        -> RLHF (Reinforcement Learning and Human Feedback)
+        -> Full parameter FT
+        -> Partial pretraining (lora, Qlora)
+        
+        All of the above are updating model parameters around our need
+
+    -> Drawbacks of above techniques 
+        -> Computationally expensive 
+        -> Required technical experties  
+
+-> Another technique to solve this issue is Incontext Learning 
+    Incontext Learning: It is a core capability of LLm, Where model learns to solve task purely by seeing the example in the prompt. Examples are One shot, Few shot prompting
+
+    -> In addition to this what if we sent the background information, Documents also with the query that will augument the models knowledge
+
+    and this is known as RAG
+
+RAG: Rag is way to make llm smarter by giving extra informationat the time you ask the question

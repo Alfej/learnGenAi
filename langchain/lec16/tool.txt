@@ -1,0 +1,21 @@
+What is tool?
+-> Tool is just a python function or API that is packaged in a way that LLM can understand and can call when required.
+
+Why tools are required?
+-> LLM is good at 1. reasoning 2. Language Generation
+-> but llm is not good at 1. Access Live data 2. Do math 3. Call API 4. Run code etc
+
+2 types of tools in langchain
+1. Built in tools :- Tools that langchain alread provides
+                     required minimal or no set up 
+
+2. Custom tools :- 
+
+How tools fit in Agent Eco system?
+An Ai agent is a llm powered system that can automatically think, decide and take actions using external API or tool to achive goal 
+
+
+ToolKit:
+A toolkit is a collection of related tools that serves common purpose packaged together for convenience and reusibility
+
+
