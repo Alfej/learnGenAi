@@ -1,0 +1,22 @@
+What is AI Agent?
+-> It is an intelligent system that receives a high leve; goal from user and autonomously plan, decides, and executes a sequence of actions by using external tools, API, or knowledge source - All while maintaining context, reasoning over multiple steps, adapting to new information and optimizing for the intended outcome
+
+Charecteristics of AI Agent:
+-> Goal - driven: Jut tell agent what to do, Not how to do 
+-> Autonomous planning: Agent Break downs the problem and sequences task on its own 
+-> Tool using: automatically calls tools
+-> Context Aware: Maintains memory accross steps to inform future actions 
+-> Adaptive: Rethinks plan when things changes 
+
+ReAct pattern:
+-> It is design pattern used in AI Agents 
+-> It stands for Reasoning and actions
+-> It allows a Language model to interleave internal thoughts with external actions in structured multi-step process
+-> Instead of generating answers in one go, the model thinks in step by step manner deciding what needs to do next and optionally calling tool to help it
+
+ReAct is Useful for:
+-> Multistep problem 
+-> Tool augumented task
+-> Making the agents reasoning transparent and auditable
+
+

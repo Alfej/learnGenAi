@@ -1,0 +1,15 @@
+Tool Binding:
+-> It is the step where we register tools with LLMs so that:
+    -> LLM can know what tools are available 
+    -> It knows what each tool does 
+    -> It knows what input format to use
+
+Tool calling:
+-> It is the process where LLM decides during the converstion or task, that it needs to use specific tool and generates and generates the structured output with:
+    -> The name of the tool 
+    -> the argument to call with 
+
+    -> The LLM does not actually run the tool - it suggests the tool and arguments. The actual execution is handled by langchain or us
+    
+Tool execution:
+-> Tool execution is the step where the actual python function is run using the input arguments that the LLM suggested during tool calling
