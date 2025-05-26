@@ -1,0 +1,30 @@
+Level of Autonomy:
+-> Code ->0 autonomy & 100% deterministic
+    -> Everything is Hard coded and not even really cognitive architecture 
+    -> dis Ad.:-> Need to write rules for each possible scenario
+
+-> LLM call:
+    -> give app input it prcesses and give backs output
+    -> translator app as example
+    -> dis ad.:-> Try to get everything done in oneshot often leads to confusion or mixed up response 
+
+-> Chains:
+    -> Instead of one generalist multiple Specialist.
+    -> Instead os asking One AI to do everything, We break down the syteps where each AI is good at one thing
+    -> dis ad.:-> Fixed sequences are like rigid assembly line (Always follows the same sequence)
+
+-> Routers:
+    -> Instead of having fixed paths like chaiins, AI it self decides what steps to take next
+    -> dis ad.:-> While it can choose different path, It can't remember the previous conversation or learn from mistakes.
+
+-> Agent:
+    -> This is combining the previous level but with loops 
+    -> Agent = Control flow cotrolled by an LLM
+    
+    -> Advantages:
+        -> Human in the loop asks for approval 
+        -> Multiagent system
+        -> Memory management 
+        -> Go to history and explore better alternate path
+        -> Adaptive learning
+        
