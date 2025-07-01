@@ -1,0 +1,74 @@
+Gen AI:
+-> IR resembles class of AI models that can create new content such as text, images, audios, code or videos that resembles human created data 
+
+
+Agentic AI:
+-> Agentic AI is a type of AI that can take up the task or goal from a user and then completing it on its own with minimal human guidance 
+-> 6 characteristics of Agentic AI:
+    -> Autonomus :
+        - It refers to the AI systems ability to make decisions and take actions on its own to achive the given goal without needing human instruction
+        - Autonomy in multiple facet
+            -> Execution 
+            -> Decision Making
+            -> Tool use 
+        - Autonomy can be controlled
+            -> Permission Scop
+            -> Human In the loop
+            -> Override controls
+            -> guard rails/ policies 
+
+    -> Goal Oriented
+        - Being Goal oriented means that AI system operates with persistent objective in mind and continuosly directs the actions to achive the objectives, rather than just responding to isolated prompts 
+
+    -> Planning:
+        - Planning in the agent's ability to break down a high level job into a sequence of actions or subgoals and decide the best path to achive the desired outcome 
+    -> Reasoning 
+        - Reasoning is cognetive process through which an Agentic AI system interprets information, draws conclusion and makes decisions both while planning and executing actions in realtime 
+
+    -> Adaptability
+        - Adaptabillity is Agents ability to modify its plan, strategies or response to unexpected conditions- All while staying aligned with goal 
+    -> Context Awareness
+        - Context Awareness is Agent's ability to understand, retain and utilize relevant information from the ongoing task, past interaction, user preference, and environmental cues to make better decision throughout a multistep process 
+
+
+-> Components of Agentic AI:
+    -> Brain -> LLM (works: Goal interpretation, planning, reasoning, tool selection, communication)
+    -> Orchestrator -> (Works: Task sequencing, conditional routing, retry logic, looping & interaction, delegation)
+    -> tools -> (Works: Extrnel access, knowledgebase access)
+    -> Memory -> (Works: short term memory, Long term Memory, sate tracking)
+    -> Supervisor -> (Works: Approval request, Duardrails Enforcement, Edge case handling)
+
+
+-> Curriculum:
+    - Foundations of Agentic AI
+        - Gen AI vs Agentic AI
+        - Agentic RAG vs traditional Rag 
+        - Agentic AI vs AI agent
+        - top fraeworks to create Agentic AI
+    - LangGraph Fundamentals
+        -> Graph building
+        -> node
+        -> edges
+        -> strat
+        -> conditional edges
+        -> looping
+    - Advance LangGraph
+        -> Memory
+        -> persistence
+        -> Human In the loop
+        -> Break points
+        -> Check pointers
+        -> Time travel
+    - AI Agents
+        -> Popular design pattern 
+            - Reactive Agent
+            - Reflection Agent 
+            - Self ask with help
+            - planning
+            - multi agent system 
+    - Agntic Rag
+        -> C Rag
+        -> Self Rag
+    
+    - Productionization 
+

@@ -1,12 +1,15 @@
 from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
 import os
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 
 load_dotenv()
 
-hf_api_token = os.getenv("HUGGINGFACE_ACCESS_TOKEN")
+# model = ChatOpenAI(model='gpt-4')
+
+hf_api_token = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 llm = HuggingFaceEndpoint(
-    repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    repo_id="deepseek-ai/DeepSeek-R1-0528",
     task="text-generation",
     huggingfacehub_api_token=hf_api_token
 )
