@@ -6,7 +6,7 @@ load_dotenv()
 
 hf_api_token = os.getenv("HUGGINGFACE_ACCESS_TOKEN")
 llm = HuggingFacePipeline.from_model_id(
-    repo_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    model_id="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
     task="text-generation",
     huggingfacehub_api_token=hf_api_token,
     pipeline_kwargs=dict(
