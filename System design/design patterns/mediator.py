@@ -32,6 +32,10 @@ class ConcreteMediator(Mediator):
             if event == "FormSubmitted":
                 if self._email.validate() and self._password.validate():
                     print(f"Form submitted with Email: {self._email._email} and Password: {self._password._password}")
+                else:
+                    print("Form submission failed: Invalid email or password")
+                    self._cancel.clear_form_data()
+                    self._cancel.cancel_form()
         elif sender.name == "Cancel":
             if event == "FormCancelled":
                 self._email.clear()
@@ -73,6 +77,10 @@ class Submit(Component):
         if self._mediator:
             self._mediator.notify(self, "FormSubmitted")
 
+    def set_form_data(self, email: str, password: str) -> None:
+        self._email = email
+        self._password = password
+
 class Cancel(Component):
     def __init__(self) -> None:
         self.name = "Cancel"
@@ -80,6 +88,10 @@ class Cancel(Component):
     def cancel_form(self) -> None:
         if self._mediator:
             self._mediator.notify(self, "FormCancelled")
+
+    def clear_form_data(self) -> None:
+        self._email = ""
+        self._password = ""
 
 
 if __name__ == "__main__":
@@ -92,9 +104,7 @@ if __name__ == "__main__":
 
     # Simulate user input
     email._email = "test@example.com"
-    password._password = "Password123"
+    password._password = "Pa123"
 
     submit.set_form_data(email._email, password._password)
     submit.submit_form()
-
-    cancel.cancel_form()
