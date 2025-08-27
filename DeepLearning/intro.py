@@ -1,0 +1,4 @@
+# Deep Learning is a subfield of Artificial Intelligence and Machine Learning that is inspired by the structure of a human brain.
+# Deep learning algorithms attempt to draw similar conclusions as humans would by continually analyzing data with a given logical structure called Neural Network.
+# Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning.
+# Deep Learning Algorithms uses multiple layers to progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, While higher layers may identify the concepts relevant to a human such as digits or letters or faces.

@@ -1,0 +1,13 @@
+-> How to apply a tarnsformation to a line to make points correctly classified?
+-> Perceptron trick basically is it correctsthe weight and bias in a way to find the best classified line 
+-> At the start one line is assumed, and then randomly values are taken and It tries to find out the chosen point is correclt classified? If yes then we choose another point 
+-> If not than there can be 2 cases to deal with
+    1. Positive point in negative region 
+    2. negative point in positive region
+
+So for the case 1
+we will add the point value to our line weights and 1 to bias than new equation will correctly classifies the point 
+
+for the case 2
+we will subtract the point value to our line weights and 1 to bias than new equation will correctly classifies the point 
+
