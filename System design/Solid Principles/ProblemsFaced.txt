@@ -1,0 +1,12 @@
+Problems we face if we dont follow the principles 
+-> Maintainability 
+-> Readability
+-> BUGS
+
+Robert C Martin have given this principles 
+S: Single responsibility principle
+O: Open Close principle
+L: Liskov Substitution principle
+I: Interface Seggregation Princiople 
+D: Dpendency Inversion Principle
+
