@@ -171,3 +171,56 @@ if __name__ == "__main__":
 
     user1 = user([savings, current], [fixed_deposit])
     user1.perform_transactions()
+
+
+# guidelines to take care to achieve LSP:
+# 1. Signature Rule: The method signatures in the subclass should match those in the superclass. This includes the method name, return type, and parameters.
+#       Broad=> Parent class / Ancestor class
+#       Narrow=> Child class / Descendant class
+#       1. Method Argument Rule: Broad method signature should be followed in Narrow method signature
+#       e.g., if parent class method is def add(int a, int b) -> int: then child class method should also be def add(int a, int b) -> int:
+#       If parameter except a class type object, then we can use same or broader type in child class method
+# ex.
+# class Parent:
+#     def add(self, a: int, b: int) -> int:
+#         return a + b
+# class Child(Parent):
+#     def add(self, a: float, b: float) -> float: # Broader type
+#         return int(a + b)
+
+#       2. Return Type Rule(Covariance): Child inhariting parent should return same or narrower type than parent method
+# ex.
+# class Parent:
+#     def get_value(self) -> object:
+#         return "Parent Value"
+# class Child(Parent):
+#     def get_value(self) -> str: # Narrower type
+#         return "Child Value"
+
+#      3. Exception Rule: Child class method should not throw broader exceptions than parent class method
+# Exception hierarchy: BaseException > Exception > StandardError > ValueError
+# ex.
+# class Parent:
+#     def do_something(self) -> None:
+#         pass
+# class Child(Parent):
+#     def do_something(self) -> None:
+#         raise ValueError("Child error")
+
+# 2. Property Rule:
+#    1. Class Invariant Rule: The invariants of the parent class must be preserved in the child class.
+        # An invariant is a condition that should always hold true for an object of a class.
+
+        # ex. If a parent class has an invariant that a balance should never be negative, the child class must also ensure that the balance remains non-negative.
+#    2. History Constraint Rule: The history of the parent class must be preserved in the child class.
+        # The history of an object includes all the states it has gone through during its lifetime.
+#       ex. If a parent class has a method that modifies the state of an object, the child class must ensure that the state transitions remain valid according to the parent's history.
+
+# 3. Method Rule: 
+#     1. pre-condition Rule: The pre-conditions of the parent class method must be preserved or weakened in the child class method.
+        # A pre-condition is a condition that must be true before a method is executed.
+        # ex. If a parent class method requires a positive integer as input, the child class method can accept any integer (positive, negative, or zero).
+
+#     2. post-condition Rule: The post-conditions of the parent class method must be preserved or strengthened in the child class method.
+        # A post-condition is a condition that must be true after a method has been executed.
+        # ex. If a parent class method guarantees that the output will be a non-negative integer, the child class method can guarantee that the output will be a positive integer.
