@@ -11,3 +11,7 @@ we will add the point value to our line weights and 1 to bias than new equation 
 for the case 2
 we will subtract the point value to our line weights and 1 to bias than new equation will correctly classifies the point 
 
+
+Problem with Perceptron tricks:
+-> We are not sure the found line is correct 
+-> 
