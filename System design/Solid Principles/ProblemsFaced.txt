@@ -1,7 +1,8 @@
 Problems we face if we dont follow the principles 
--> Maintainability 
+-> Maintainability
 -> Readability
--> BUGS
+-> Scalability
+-> Re-Usability
 
 Robert C Martin have given this principles 
 S: Single responsibility principle

@@ -1,0 +1,16 @@
+Why OOPs was required?
+-> We were able to right code according to real world problem, Not as technical level like machine code or assembly code 
+    -> Real world consist of a objects and they interact with eachothers
+    -> Real world objects have charechteristics and behaviours
+-> It provide data security
+-> Provides code reusability/ Scalability
+
+Pillars of OOPS:
+1. Abstraction
+    -> Interface 
+    -> Hides Unnecessary details from client and shows only what is necessary
+
+2. Encaptulation
+    -> data and method is combined together
+    -> Make sure only required methods or objects are open for client.
+    
