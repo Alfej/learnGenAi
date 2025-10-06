@@ -13,4 +13,17 @@ Pillars of OOPS:
 2. Encaptulation
     -> data and method is combined together
     -> Make sure only required methods or objects are open for client.
+
+3. Inharitance
+    -> Properties of parent inharied by child
     
+4. Polymorphism
+    -> Many forms - Same objects have many forms
+    2 types of Polymorphism:
+        1. Dynamic Polymorphism
+            Many object have same methods
+                Method Overriding
+        2. Static Polymorphism
+            Same object have many methods with same name 
+                Method Overloading
+
