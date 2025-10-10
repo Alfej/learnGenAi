@@ -1,0 +1,13 @@
+UMl Diagram: Why needed?
+-> Needed to express the programming idea via Diagram
+
+
+2 types of Diagram:
+1. Structural (Static)
+    - Class diagram - Most important
+    - there are other 6 diagrams but those are mostly a usecase specific
+2. behavioural (Dynamic)
+    - Sequence diagram
+    - there are other 6 diagrams but those are mostly a usecase specific
+
+    
