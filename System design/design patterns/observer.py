@@ -2,6 +2,7 @@
 # Use the Observer pattern when changes to the state of one object may require changing other objects, and the actual set of objects is unknown beforehand or changes dynamically
 # Use the pattern when some objects in your app must observe others, but only for a limited time or in specific cases.
 
+#  This pattern breaks the Sngle Responsibility Principle because it introduces two responsibilities to the subject: business logic and subscription management. However, this is a trade-off that is often worth making, as it allows you to decouple the subject from its observers.
 from __future__ import annotations
 from abc import ABC, abstractmethod
 

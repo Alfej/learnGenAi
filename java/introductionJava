@@ -1,0 +1,17 @@
+-> Why Java 
+    -> Previos lanuages like C/C++ were platform dependent 
+        * Platform = Processor + OS
+    -> This simply means that to run the same code on the different platform we need to compile the cod for each platform
+    -> Another is Simplicity, Some of the concepts in the c/cpp such as Pointer, Memmory allocation and deallocations are complex
+    
+
+-> Why platform dependent? Why compiling on different platform generates different machine codes?
+    -> Compiler uses the methods from OS to perform input, Output, Memory allocations via ISA (Instruction Set Architecture), Different Os have different names proided for same kind of functionality that can  generate the different machine codes 
+    -> Processors are built from the transistors like billions or trillions of them! Different companies have their different designing of a processor and that handles IO and Memmory allocations differently thats why compiling on the different machine code can generate the different machine codes
+
+How Java solves the problems:
+-> Java have created the JVMs, Compiler convert the code in the bytecodes and this bytecodes are handled by the JVM! So basically here the hero is JVM. Java have created the different JVms for the different platforms for the one time and this are being used to generate the machine code for the machine so you just need to compile the file to bytecode and this bytecode can be passed to anymachine and this machine can execute this byte code according to it's platform!
+
+this is how JAVA solves the issue of portability and becomes the Platform independent!
+Java is more simple
+and this bytecode is being processed in the secure environment so Java is more secure as well!
