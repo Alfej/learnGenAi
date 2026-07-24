@@ -49,10 +49,9 @@ class sms_notifier_decorator(notifier_decorator):
 
 # Example usage
 
-email = email_notifier("Hello Email")
-email = email_notifier_decorator(email, "Greetings")
+# email = email_notifier("Hello Email")
+email = email_notifier_decorator(email_notifier("Hello Email"), "Greetings")
 print(email.get_text())
 
-sms = sms_notifier("Hello SMS")
-sms = sms_notifier_decorator(sms, "Alice")
+sms = sms_notifier_decorator(sms_notifier("Hello SMS"), "Alice")
 print(sms.get_text())
