@@ -1,0 +1,8 @@
+Model types based on the ownership and the control over it:
+1. Proprietary
+    -> Owned and controlled by the company
+    -> reffered as black box 
+    -> Used through the subscription
+2. Open source
+    -> Everything related to the model are public their weights and biases, Training code as well
+    

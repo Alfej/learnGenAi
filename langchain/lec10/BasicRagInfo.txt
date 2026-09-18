@@ -1,5 +1,5 @@
 RAG :-> Retrieval-Augmented Generation
-    Its technique that combines infrmation Retrievalwith language generation, Where model retrives relevant doc from the knowledgebase and then uses them as context to generate the accurate and grounded result
+    Its technique that combines infrmation Retrieval with language generation, Where model retrives relevant doc from the knowledgebase and then uses them as context to generate the accurate and grounded result
 
     benefits:
     -> Uses Up to date information

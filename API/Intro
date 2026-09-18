@@ -1,0 +1,25 @@
+API - Application Programming Interface
+
+Types of API:
+RESTful API - reprsentational State Transfer
+SOAP - Alternative to set (uses XML to transfer the data)
+GraphQl - Instead of multiple endpoints it just exposes only one end point
+gRPC - remote procedure call - Uses Protocol buffers instead of Json - Great for Microservice Application
+WebSocket - It is a bidirectional channel- Used in the realtime Application
+
+
+Json - JavaScript Object Notation
+ex:
+{
+    "Name":"XYZ",
+    "Age":10
+}
+
+RESTful API
+
+Methods: GET, POST
+resource: Entity, Item, DB record
+Endpoint: Method + Path
+
+
+
