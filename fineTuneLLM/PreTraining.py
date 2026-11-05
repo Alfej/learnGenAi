@@ -16,7 +16,7 @@
 # dataset: plain text
 # Usecases: Domain-specific language understanding, Sentiment analysis, Named entity recognition, Text classification, Question answering, Machine translation, Summarization, Chatbots and conversational agents, Information retrieval, Content generation.
 # Goal: The goal of normal fine-tuning is to adapt the pretrained model to a specific domain or task, improving its performance and accuracy on the target application. By leveraging the knowledge acquired during pre-training, the model can effectively learn task-specific patterns and make more informed predictions or generate relevant outputs.
-# output style:Produces text continuations that are coherent and contextually relevant to the input prompt- Not necessarily aligned with human preferences or values.
+# output style:Produces text  continuations that are coherent and contextually relevant to the input prompt- Not necessarily aligned with human preferences or values.
 # Meaning: The model is trained to generate text that is contextually appropriate and coherent, but it may not always align with human preferences or values. It focuses on producing text that is grammatically correct and contextually relevant, rather than explicitly considering ethical or moral considerations.
 
 # Instruction Fine Tuning (Alignment with Human Preferences): Instruction fine-tuning is a specialized form of fine-tuning that focuses on aligning the model's behavior with human preferences and values. 
